@@ -14,10 +14,22 @@ Comfortaa|Hind|Kalam|Karla|Righteous
   height: 80%;
   margin: 0 auto;
   font-size: 62.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
   /*  font-family: Righteous;
     font-family: Karla;
     font-family: Kalam;
     font-family: Hind; */
   font-family: Comfortaa;
+
+}
+
+
+.name {
+  border: 1px solid seagreen;
+  color: white;
+  font-size: 2rem;
 
 }
