@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+
+}
+
+/*
+Comfortaa|Hind|Kalam|Karla|Righteous
+*/
+
+
+.main-container {
+  border: 1px solid dodgerblue;
+  width: 800px;
+  height: 80%;
+  margin: 0 auto;
+  font-size: 62.5%;
+  /*  font-family: Righteous;
+    font-family: Karla;
+    font-family: Kalam;
+    font-family: Hind; */
+  font-family: Comfortaa;
+
+}
