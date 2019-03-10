@@ -39,9 +39,10 @@ Comfortaa|Hind|Kalam|Karla|Righteous
 button {
   border: 1px solid black;
   font-size: 1.5rem;
+  line-height: 2rem;
   width: 40%;
   margin: 1rem auto;
-  border-radius: 10px;
-  background-color: darkgrey;
+  border-radius: 15px;
+  background-color: darkslategray;
   color: white;
 }

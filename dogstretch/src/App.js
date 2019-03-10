@@ -35,16 +35,14 @@ class App extends Component {
   
 
 
-
-
-
-
   render() {
     return (
       <div className="App">
 
         <h1 className = "header_h1">  10 cute dogs </h1>
-        <button> refresh for more cuteness </button>
+        <button
+          onClick = {() => window.location.reload()}
+            > refresh for more cuteness </button>
         <div className = "main_dogList">
           <DogList cutedogs = {this.state.dogs}/>
 
