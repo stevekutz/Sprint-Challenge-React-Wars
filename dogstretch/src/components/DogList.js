@@ -15,7 +15,7 @@ const DogList = (props) => {
         return (
           <Dog
             className = "dogIMG"
-            src = {props.item}
+            src = {item}
             key = {i}
 
 
