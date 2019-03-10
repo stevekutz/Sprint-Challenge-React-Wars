@@ -44,6 +44,10 @@ Comfortaa|Hind|Kalam|Karla|Righteous
 
 }
 
+img {
+  max-height: 100px;
+}
+
 .physical {
   border: 1px solid chartreuse;
   width: 45%;

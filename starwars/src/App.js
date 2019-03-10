@@ -33,10 +33,20 @@ class App extends Component {
       });
   };
 
+  getMoreData =() => {
+
+
+
+
+  };
+
+
   render() {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <button onClick = {this.getMoreData}>Get more data</button>
+
         <div className = "main_CharacterList">
           <CharacterList
             characters = {this.state.starwarsChars}

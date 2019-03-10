@@ -10,6 +10,7 @@ const Character = (props) => {
     <div className = "main-container">
       <h1 className = 'name'> Name: {props.character.name}</h1>
 
+
       <div className = "character-container">
         <div className = 'physical'>
           <h2> Physical Attrbutes </h2>
