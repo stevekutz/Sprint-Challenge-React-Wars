@@ -32,7 +32,7 @@ class App extends Component {
       });
   };
 
-
+  
 
 
 
@@ -42,12 +42,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="Header">Dogs</h1>
 
-
+        <h1 className = "header_h1">  10 cute dogs </h1>
+        <button> refresh for more cuteness </button>
         <div className = "main_dogList">
-        <h1>SOMETHING HERE </h1>
-        <DogList cutedogs = {this.state.dogs}/>
+          <DogList cutedogs = {this.state.dogs}/>
 
         </div>
 

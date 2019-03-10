@@ -9,7 +9,6 @@ const DogList = (props) => {
 
 
     <div className = "dogList-container">
-
       {props.cutedogs.map( (item, i) => {
 
         return (
