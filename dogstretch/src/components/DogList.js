@@ -10,7 +10,23 @@ const DogList = (props) => {
 
     <div className = "dogList-container">
 
+      {props.cutedogs.map( (item, i) => {
 
+        return (
+          <Dog
+            className = "dogIMG"
+            src = {props.item}
+            key = {i}
+
+
+          />
+
+
+
+        )
+
+
+      })}
 
 
 
