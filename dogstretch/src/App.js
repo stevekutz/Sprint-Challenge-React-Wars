@@ -32,7 +32,9 @@ class App extends Component {
       });
   };
 
-  
+// yes this was cheating
+// onClick = {() => window.location.reload()}
+
 
 
   render() {
@@ -41,7 +43,7 @@ class App extends Component {
 
         <h1 className = "header_h1">  10 cute dogs </h1>
         <button
-          onClick = {() => window.location.reload()}
+          onClick = { () => this.getCharacters('https://dog.ceo/api/breeds/image/random/10')}
             > refresh for more cuteness </button>
         <div className = "main_dogList">
           <DogList cutedogs = {this.state.dogs}/>
