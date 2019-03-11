@@ -35,7 +35,9 @@ class App extends Component {
 // yes this was cheating
 // onClick = {() => window.location.reload()}
 
-
+// this
+// onClick = { () => this.getCharacters('https://dog.ceo/api/breeds/image/random/10')}
+// onClick = { () => this.componentDidMount()}
 
   render() {
     return (
